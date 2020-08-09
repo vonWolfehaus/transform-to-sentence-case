@@ -1,7 +1,7 @@
 {
 	"name": "transform-to-sentencecase",
-	"displayName": "Transform to Sentencecase",
-	"description": "Capitalize the first letter after every sentence, leaving everything else as-is.",
+	"displayName": "Transform to Sentence Case",
+	"description": "Capitalize the first letter after every sentence, leaving everything else as-is. English only.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.47.0"
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:transform-to-sentencecase.helloWorld"
+        "onCommand:transform-to-sentencecase.transformToSentenceCase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "transform-to-sentencecase.helloWorld",
-				"title": "Hello World"
+				"command": "transform-to-sentencecase.transformToSentenceCase",
+				"title": "Transform to Sentence Case"
 			}
 		]
 	},
