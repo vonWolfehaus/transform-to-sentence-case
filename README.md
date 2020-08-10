@@ -1,12 +1,13 @@
 # transform-to-sentencecase README
 
-This is the README for your extension "transform-to-sentencecase". After writing up a brief description, we recommend including the following sections.
+Capitalize the first letter after every sentence, leaving everything else as-is. English only.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+- Formats the current document to sentence casing
+- Multi-selection support
+- Only format code comments
+- Optionally adds a period at end of line, if one doesn't exist
 
 \!\[feature X\]\(images/feature-x.png\)
 
